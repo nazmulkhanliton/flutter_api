@@ -39,7 +39,12 @@ class _LogInState extends State<LogIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
+      appBar: AppBar(
+        title: Text(
+          'Login Api Test',
+        )
+      ),
+      body: Center(
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
