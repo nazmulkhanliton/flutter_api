@@ -78,8 +78,11 @@ class _LogInState extends State<LogIn> {
                   login(emailController.text.toString(), passwordController.text.toString());
                 },
                 child: Text(
-                  'Login',
+                  ' Login ',
                 ),
+              ),
+              SizedBox(
+                height: 15,
               ),
             ],
           ),
